@@ -1,5 +1,4 @@
-•Centering an element in CSS•
-
+•CENTERING AN ELEMENT WITH CSS•
 /*Note: If the element is not a flexible item, the flex property has no effect.*/
 
 <div class="parent">
