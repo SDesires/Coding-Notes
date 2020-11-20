@@ -1,1 +1,17 @@
+•Centering an element in CSS•
+
+/*Note: If the element is not a flexible item, the flex property has no effect.*/
+
+<div class="parent">
+    <p class="child">
+        Example Text
+    </p>
+</div>
+
+.parent{
+       display: flex;
+       justify-content: center;
+       align-items: center;
+  }
+
 
