@@ -1,1 +1,7 @@
+•HOW TO SPECIFY THE LANGUAGE OF A PAGE IN HTML5•
+<!--Add this before your head tag-->
+
+<html lang="en">
+
+
 
