@@ -13,4 +13,27 @@
        align-items: center;
   }
 
-from: https://blog.rahulism.co/
+
+•HOW TO MAKE ROUNDED CORNERS•
+
+<style type="text/css">
+.round1 {
+   border:1px solid #c1c13a; 
+   -moz-border-radius: 10px;
+   -webkit-border-radius: 10px;
+   border-radius: 10px; /* future proofing */
+   -khtml-border-radius: 10px; /* for old Konqueror browsers */
+}
+.round2 {
+   border:1px solid #c1c13a; 
+   -moz-border-radius: 10px 10px 0 0;
+   -webkit-border-radius: 10px 10px 0 0;
+   border-radius: 10px 10px 0 0; /* future proofing */
+   -khtml-border-radius: 10px 10px 0 0; /* for old Konqueror browsers */
+}
+</style>
+
+
+
+
+
