@@ -39,4 +39,36 @@ background: linear-gradient(45deg, #f06, yellow);
 min-height: 100%;
 }
 
+•VALIDATION ICON•
+<div style="
+    /* Used to position the validation icon */
+    position: relative;
+">
+    <!-- The input -->
+    <input style="
+        /* Border */
+        border: 1px solid rgba(0, 0, 0, 0.3);
+        border-radius: 4px;
+
+        /* Take the full width */
+        width: 100%;
+
+        /* Don't overlap the icon */
+        padding-right: 24px;
+    " />
+
+    <!-- The icon container -->
+    <i style="
+        /* Positioned at the right side */
+        position: absolute;
+        right: 8px;
+        top: 50%;
+        transform: translate(0, -50%);
+
+        z-index: 10;
+    ">
+        <!-- The SVG icon represents any state such as valid, invalid, loading, etc. -->
+        ...
+    </i>
+</div>
 
