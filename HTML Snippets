@@ -21,5 +21,10 @@ target="top"<!--goes to the top of the page-->
 target="bottom"<!--goes to the bottom of the page-->
 <!--example of target placement in the code--><a href="https://github.com/SDesires/Random-Code-Snippets" target="blank">Random-Code-Snippets</a>
 
+A CHECKBOX
+<input type="checkbox">
+<label>This is a checkbox</label>
+<input id="c1" type="checkbox">
+<label for="c1">The Checkbox label</label>
 
 
