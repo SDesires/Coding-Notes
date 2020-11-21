@@ -15,7 +15,6 @@
 
 
 •HOW TO MAKE ROUNDED CORNERS•
-
 <style type="text/css">
 .round1 {
    border:1px solid #c1c13a; 
@@ -33,7 +32,11 @@
 }
 </style>
 
-
-
+•EXAMPLE OF A LINEAR GRADIENT BACKGROUND CODE•
+body {
+background: #f06;
+background: linear-gradient(45deg, #f06, yellow);
+min-height: 100%;
+}
 
 
