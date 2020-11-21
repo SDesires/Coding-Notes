@@ -15,7 +15,7 @@
 <a href="https://github.com/SDesires/Random-Code-Snippets">Random-Code-Snippets</a><!--Link to an outside page-->
 <a href="mailto:yourmailid@mail.com">Your email address</a><!--link to your email-->
 
-TARGET ATTRIBUTES FOR LINKS
+•TARGET ATTRIBUTES FOR LINKS•
 target="blank"<!opens the link up in a new browser page-->
 target="top"<!--goes to the top of the page-->
 target="bottom"<!--goes to the bottom of the page-->
