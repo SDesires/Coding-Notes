@@ -16,7 +16,8 @@ All visual-structural elements are contained within the body tag.
 <body></body>
 </html>
 
-The title tag places a title on the tab describing the web page and is added within the head. The title element is important because it describes the page and is used by search engines.
+The title tag places a title on the tab describing the web page and is added within the head. 
+The title element is important because it describes the page and is used by search engines.
 <html>
 <head>
 <title>My Funky Page</title>
@@ -34,7 +35,9 @@ To add a paragraph, you use the p tag.
 </body>
 </html>
 
-The br tag is a line break tag. If you need a line of space between text or other things on your page, that's the tag you would use. It is said that since it's an empty element that you don't need a closing tag to it, but I am old school (I used to use HTML before it got all fancy with a 5 at the end of it lol)and close all my tags out of habit. 
+The br tag is a line break tag. If you need a line of space between text or other things on your page, that's the tag you would use. 
+It is said that since it's an empty element that you don't need a closing tag to it, but I am old school 
+(I used to use HTML before it got all fancy with a 5 at the end of it lol)and close all my tags out of habit. 
 <html>
 <head>
 <title>My Funky Page</title>
@@ -45,7 +48,8 @@ The br tag is a line break tag. If you need a line of space between text or othe
 </body>
 </html>
 
-Before CSS was all the rage and took over every part of styling HTML code, there were specific HTML tags for certain text formatting. They also added a few new ones it looks like.
+Before CSS was all the rage and took over every part of styling HTML code, there were specific HTML tags for certain text formatting. 
+They also added a few new ones it looks like.
 <html>
 <head>
 <title>My Funky Page</title>
@@ -66,7 +70,8 @@ Before CSS was all the rage and took over every part of styling HTML code, there
 However, the meanings of these tags differ: <b> and <i> define bold and italic text, respectively, while <strong> and <em> indicate that the text is "important".-->
 
 There are six levels of headings, which are ranked according to importance.
-These are <h1>, <h2>, <h3>, <h4>, <h5>, and <h6>. It's in bad taste to use a heading tag to simply make your text bold, since search engines use headings to determine the content of a page and such.
+These are <h1>, <h2>, <h3>, <h4>, <h5>, and <h6>. 
+It's in bad taste to use a heading tag to simply make your text bold, since search engines use headings to determine the content of a page and such.
 
 To create a horizontal line, use the <hr /> tag. Apparently they call this a "thematic break" now. They used to be called a divider. 
 
@@ -74,9 +79,15 @@ To create a horizontal line, use the <hr /> tag. Apparently they call this a "th
 
 Each tag is called an element. Make sure to write your code neatly so you don't lose track of which ones are open or closed.
 
-Now here's where it gets tricky...Attributes provide additional information about an element or a tag, while also modifying them. Most attributes have a value, and the value modifies the attribute. Most people know that you use CSS nowadays to modify HTML, however, attributes are still useful in HTML when you aren't familiar with CSS yet, or if you just want to keep it simple.
+Now here's where it gets tricky...Attributes provide additional information about an element or a tag, while also modifying them. 
+Most attributes have a value, and the value modifies the attribute. 
+Most people know that you use CSS nowadays to modify HTML, however, attributes are still useful in HTML when you aren't familiar with CSS yet, 
+or if you just want to keep it simple.
 
-In HTML you can use pixels (px) or percentages (50%) for size attributes, such as width or height. Please note that the align attribute has been replaced by CSS styles and is supposedly not supported by HTML5. I used it in the README file of this repository and it worked fine on my browser (Opera) so perhaps it's not quite obsolete yet. You should learn to use the CSS version anyhow, since HTML and CSS go hand in hand these days. So, for a quick example:
+In HTML you can use pixels (px) or percentages (50%) for size attributes, such as width or height. 
+Please note that the align attribute has been replaced by CSS styles and is supposedly not supported by HTML5. 
+I used it in the README file of this repository and it worked fine on my browser (Opera) so perhaps it's not quite obsolete yet. 
+You should learn to use the CSS version anyhow, since HTML and CSS go hand in hand these days. So, for a quick example:
 
 p {
   align: left;
