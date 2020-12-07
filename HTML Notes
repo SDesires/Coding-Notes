@@ -1,17 +1,12 @@
-<html>
-<head>
-</head>
-<body>
-<h1 align="center"><u><b>☠ HTML NOTES ☠</u></b></h1>
-<br><br>
-<ul>
-<li>HTML stands for HyperText Markup Language.</li>
 
-<li>The head of an HTML file contains all of the non-visual elements that help make the page work.
-<pre>
-&lt;html&gt;
-&lt;head&gt;&lt;/head&gt;
-&lt;/html&gt;
+☠ HTML NOTES ☠
+
+HTML stands for HyperText Markup Language.</li>
+
+The head of an HTML file contains all of the non-visual elements that help make the page work.
+<html>
+<head></head>
+</html>
 
 The body tag follows the head tag and defines the main content of the HTML document.
 All visual-structural elements are contained within the body tag.
