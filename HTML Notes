@@ -99,6 +99,135 @@ p {
 
 I'll probably explain this more in the CSS Notes when I get there. I'm sure that I'm missing other options here.
 
+How to add an image:
+<img src="url of the image here" alt="a description of the image here for those that use screen readers or if the image doesn't load"></img>
+
+In the lesson that I am reading, you can still resize the image using html width and height attributes, but I'm sure that most people use CSS for that as well.
+If, by the odd chance you do need to know how to add that via HTML, it would look something like this:
+<img src="image url here" height="100px" width="100px" alt="image description goes here"></img>
+You can also add a border around your image like this (Although again, CSS is mainly used for this):
+<img src="image url here" height="100px" width="100px" border="1px" alt="image description goes here"></img>
+Make sure that you have all your qoutation marks and such in the proper places otherwise the code won't work!
+
+Clickable links are on every page that you see. This is how it is written in HTML:
+<a href="url of the page you want the link to go to">the text that you click on</a>
+This is how you tell the link to open in a new tab:
+<a href="url of the page you want the link to go to" target="_blank">the text that you click on</a>
+And here is how you make an image as a clickable link:
+<a href="url of the page you want the link to go to" target="_blank"><img src="the image url here" alt="image description here"></img></a>
+
+An ordered list is a list with numbered items. This is how you make an ordered list:
+<ol>
+  <li>this is number 1</li>
+  <li>this is number 2</li>
+  <li>this is number 3</li>
+</ol>  
+
+An unordered list is a list with the little dots or some call them bullets. This is how you make that:
+<ul>
+  <li>this is number 1</li>
+  <li>this is number 2</li>
+  <li>this is number 3</li>
+</ul>  
+
+Table tags
+I used to hate tables, they were the bane of my existance when I tried to use them in my pages. 
+Now I know that they are simple compared to the whole "grid" system that CSS boasts about lol.
+How to add a table in HTML
+<table>
+  <tr><!--this stands for table row-->
+    <td><!--this stands for table data aka a column, or cell as they are known to be called--></td>
+    <td></td>
+    <td></td>
+    <td></td>
+   </tr>
+</table>
+
+Now to confuse you with a table border (which also apparently is obsolete in HTML5):
+<table border="3">
+  <tr>
+    <td>number 1</td>
+    <td>number 2</td>
+    <td>number 3</td>
+    <td>number 4</td>
+   </tr>
+</table>
+
+This is how you make a cell the length of 2 cells:
+<table>
+<tr>
+    <td colspan="2">number 1</td>
+    <td>number 2</td>
+    <td>number 3</td>
+    <td>number 4</td>
+   </tr>
+</table>
+
+And if you need to expand the row to the space of 2 rows:
+<table>
+<tr rowspan="2">
+    <td>number 1</td>
+    <td>number 2</td>
+    <td>number 3</td>
+    <td>number 4</td>
+   </tr>
+</table>
+
+Fun fun right? Yeah, I didn't think so either lol
+And you could fully customize each cell individually as well, although yet again...CSS has taken over this part of it. But here is the HTML regardless:
+<body>
+<font color="white">
+<table border="2">
+<tr>
+  <td bgcolor="purple">This is number 1</td>
+  <td bgcolor="blue">This is number 2</td>
+  <td bgcolor="green">This is number 3</td>
+</tr>
+</table>
+</font>
+</body>
+
+To add to the confusion, tables have headers as well, represented by this tag:
+<th>
+So say you want to make a spreadsheet-like table, you would write this:
+<table>
+<tr>
+<th>Day 1</th>
+<th>Day 2</th>
+<th>Day 3</th>
+</tr>
+<tr>
+<td>HTML</td>
+<td>CSS</td>
+<td>JS</td>
+</tr>
+</table>
+If I wrote my code correctly, Day 1 would be for HTML, day 2 for CSS, and day 3 for JS. 
+
+"In HTML, most elements are defined as block level or inline elements.
+Block level elements start from a new line.
+For example: <h1>, <form>, <li>, <ol>, <ul>, <p>, <pre>, <table>, <div>, etc.
+Inline elements are normally displayed without line breaks.
+For example: <b>, <a>, <strong>, <img>, <input>, <em>, <span>, etc.
+The <div> element is a block-level element that is often used as a container for other HTML elements.
+When used together with some CSS styling, the <div> element can be used to style blocks of content.
+Similarly, the <span> element is an inline element that is often used as a container for some text.
+When used together with CSS, the <span> element can be used to style parts of the text."
+Now this information is copied from Sololearn. A nice site to learn the basics broken down into a simple manner in order to retain the information that you learn. 
+
+
+
+
+
+
+
+    
+
+
+
+
+
+
 
 
 
